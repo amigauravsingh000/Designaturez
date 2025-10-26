@@ -312,9 +312,9 @@ const PlotSizeStep = () => {
                   initial={{ scale: 1.2, color: "#6b7ff2" }}
                   animate={{ scale: 1, color: "#171717" }}
                   transition={{ duration: 0.3 }}
-                  className="text-3xl font-bold text-neutral-900 dark:text-neutral-100"
+                  className="text-3xl font-bold flex items-center"
                 >
-                  {validation.area.toLocaleString()}
+                  <p className=" text-neutral-900 dark:text-neutral-100"> {validation.area.toLocaleString()}</p>
                   <span className="text-lg text-primary-600 dark:text-primary-400 ml-2">
                     sq {unit}
                   </span>
